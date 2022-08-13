@@ -1,14 +1,15 @@
 package entidades;
 
 public class ContaCorrente extends Conta{
-
-    public ContaCorrente() {
-        super.agencia = Conta.AGENCIA_PADRAO;
-        super.numeroConta = Conta.SEQUENCIAL++;
-        super.saldo = 0;
+   
+    public ContaCorrente(Cliente cliente) {
+        super(cliente);
     }
 
-    
-    
+    @Override
+    public void imprimirExtrato(){
+        System.out.println("=== EXTRATO CONTA CORRENTE ===");
+        super.imprimirInformacoes();
+    }
     
 }

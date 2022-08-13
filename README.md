@@ -10,4 +10,6 @@ A ideia deste projeto é criar um Banco Digital com Java e Orientação a Objeto
 - `Java`
 - `GitHub`
 
+### Desafios Propostos
 
+- Estender o dominio, incluindo novas classes, atributos e/ou métodos; 
